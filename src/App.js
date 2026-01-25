@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<BookList />} />
         <Route path="/book/:id" element={<BookDetails />} />
+        <Route path="/edit/:id" element={<BookForm />} />
         <Route path="/add" element={<BookForm />} />
       </Routes>
     </BrowserRouter>
