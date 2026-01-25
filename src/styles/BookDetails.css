@@ -1,1 +1,125 @@
 
+/* Page background */
+.details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Main card */
+.details-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px 35px;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Back button */
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #4a90e2;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Book title */
+.book-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+/* Author */
+.author {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Details grid */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+/* Individual detail box */
+.details-grid div {
+  background: #f7f9fc;
+  padding: 14px 16px;
+  border-radius: 10px;
+}
+
+/* Labels */
+.details-grid span {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+/* Values */
+.details-grid p {
+  font-size: 15px;
+  color: #2c3e50;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Overview section */
+.overview-section {
+  background: #f9fafb;
+  padding: 18px 20px;
+  border-radius: 12px;
+}
+
+.overview-section h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.overview-section p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  padding: 50px;
+  color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .details-card {
+    padding: 25px 20px;
+  }
+
+  .book-title {
+    font-size: 22px;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}
