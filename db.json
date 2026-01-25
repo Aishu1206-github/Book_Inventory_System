@@ -7,7 +7,7 @@
       "publisher": "Scribner",
       "publishedDate": "1925",
       "email": "publisher@8976.com",
-      "age": "20",
+      "age": 18,
       "overview": "A novel set in the Roaring Twenties."
     },
     {
@@ -31,14 +31,44 @@
       "overview": "A dystopian novel that explores the dangers of totalitarianism and extreme political ideology through the eyes of Winston Smith."
     },
     {
-      "id": "79a7",
-      "title": "erer",
-      "author": "wer",
-      "publisher": "",
-      "publishedDate": "",
-      "email": "aj55445007@gmail.com",
+      "id": "4",
+      "title": "The Power of Habits",
+      "author": "Charles Duhigg",
+      "publisher": "Random House",
+      "publishedDate": "8 February 2012",
+      "email": "info@randomhouse.com",
+      "age": "16",
+      "overview": "This book explains how habits are formed and how they can be changed. It shows how small habits can make a big difference in personal and professional life."
+    },
+    {
+      "id": "4",
+      "title": "The Power of Habits",
+      "author": "Charles Duhigg",
+      "publisher": "Random House",
+      "publishedDate": "8 February 2012",
+      "email": "info@randomhouse.com",
+      "age": "16",
+      "overview": "This book explains how habits are formed and how they can be changed. It shows how small habits can make a big difference in personal and professional life."
+    },
+    {
+      "id": "5",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "publisher": "Avery Publishing",
+      "publishedDate": "16 October 2018",
+      "email": "support@averypub.com",
+      "age": "19",
+      "overview": "Atomic Habits focuses on building good habits and breaking bad ones through small, consistent changes. It is practical and easy to understand."
+    },
+    {
+      "id": "6",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "publisher": "Grand Central Publishing",
+      "publishedDate": "5 January 2016",
+      "email": "deepinfo@gmail.com",
       "age": "20",
-      "overview": "werafsd"
+      "overview": "Deep Work emphasizes the importance of focused, distraction-free work for productivity and success in a world full of distractions."
     }
   ]
 }
