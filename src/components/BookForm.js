@@ -1,6 +1,3 @@
-BookForm.js
-
-
 import React, { useState, useEffect } from "react";
 import { addBook,getBook, updateBook } from "../services/api";
 import { useNavigate, useParams } from "react-router-dom";

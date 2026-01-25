@@ -1,10 +1,6 @@
-
 import axios from "axios";
 
-const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL
-});
-
+const URL = "http://localhost:5000/books";
 // Read - All books
 export const getBooks = () => axios.get(URL);
 // Reas - single book by id
