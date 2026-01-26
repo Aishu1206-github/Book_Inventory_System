@@ -17,7 +17,7 @@
       "publisher": "Scribner",
       "publishedDate": "1925",
       "email": "publisher@3456.com",
-      "age": 18,
+      "age": "20",
       "overview": "A novel that explores themes of racial injustice and moral growth in the American South."
     },
     {
@@ -29,16 +29,6 @@
       "email": "publisher@1234.com",
       "age": 18,
       "overview": "A dystopian novel that explores the dangers of totalitarianism and extreme political ideology through the eyes of Winston Smith."
-    },
-    {
-      "id": "4",
-      "title": "The Power of Habits",
-      "author": "Charles Duhigg",
-      "publisher": "Random House",
-      "publishedDate": "8 February 2012",
-      "email": "info@randomhouse.com",
-      "age": "16",
-      "overview": "This book explains how habits are formed and how they can be changed. It shows how small habits can make a big difference in personal and professional life."
     },
     {
       "id": "4",
@@ -67,7 +57,7 @@
       "publisher": "Grand Central Publishing",
       "publishedDate": "5 January 2016",
       "email": "deepinfo@gmail.com",
-      "age": "20",
+      "age": "18",
       "overview": "Deep Work emphasizes the importance of focused, distraction-free work for productivity and success in a world full of distractions."
     }
   ]
