@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:5000/books";
+const URL = "https://book-inventory-backend-805x.onrender.com/books";
 // Read - All books
 export const getBooks = () => axios.get(URL);
 // Reas - single book by id
