@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_API_URL;
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+console.log("API Base URL:", BASE_URL);
 const URL = `${BASE_URL}/books`;
 // Read - All books
 export const getBooks = () => axios.get(URL);

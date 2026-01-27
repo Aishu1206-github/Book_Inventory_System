@@ -24,7 +24,7 @@ function BookForm() {
 
     setBook({
       ...book,
-      [name]: value
+    [name]: name === "age" ? Number(value) : value
     });
   };
 
@@ -44,7 +44,7 @@ function BookForm() {
     temp.title = book.title ? "" : "Title is required";
     temp.author = book.author ? "" : "Author is required";
     temp.email = /\S+@\S+\.\S+/.test(book.email) ? "" : "Invalid email";
-    temp.age = !isNaN(book.age) ? "" : "Age must be a number";
+    temp.age = book.age && Number.isInteger(book.age) && book.age > 0 ? "" : "Age must be a positive integer";
 
     setErrors(temp);
     return Object.values(temp).every(x => x === "");
@@ -78,7 +78,7 @@ function BookForm() {
           <input name="email" placeholder="Email" value={book.email} onChange={handleChange} />
           <span>{errors.email}</span>
 
-          <input name="age" placeholder="Age" value={book.age} onChange={handleChange} />
+          <input name="age" type="number" placeholder="Age" value={book.age} min="1" onChange={handleChange} />
           <span>{errors.age}</span>
 
           <textarea name="overview" placeholder="Overview" value={book.overview} onChange={handleChange} />
