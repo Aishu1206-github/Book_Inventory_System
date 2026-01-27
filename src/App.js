@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BookList from './components/BookList';
 import BookDetails from './components/BookDetails';
