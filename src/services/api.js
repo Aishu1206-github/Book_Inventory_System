@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const URL = "https://book-inventory-backend-805x.onrender.com/books";
+const BASE_URL = process.env.REACT_APP_API_URL;
+const URL = `${BASE_URL}/books`;
 // Read - All books
 export const getBooks = () => axios.get(URL);
 // Reas - single book by id
