@@ -80,8 +80,8 @@ http://localhost:10000/books
 Backend (Render)
 Hosted using JSON Server
 
-Live API URL:
-https://book-inventory-backend-805x.onrender.com/books
+[*Live API URL*]:
+(https://book-inventory-backend-805x.onrender.com/books)
 
 Frontend (Vercel)
 Deployed React application
